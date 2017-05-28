@@ -14,6 +14,7 @@
 		4EAD739A1EDA490800D5310D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAD73981EDA490800D5310D /* LaunchScreen.storyboard */; };
 		4EAD73A51EDA490800D5310D /* PhotoCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD73A41EDA490800D5310D /* PhotoCaptureTests.swift */; };
 		4EAD73B01EDA490900D5310D /* PhotoCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD73AF1EDA490900D5310D /* PhotoCaptureUITests.swift */; };
+		4EAD73BE1EDA521D00D5310D /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAD73BD1EDA521D00D5310D /* VideoPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4EAD73AB1EDA490900D5310D /* PhotoCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAD73AF1EDA490900D5310D /* PhotoCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureUITests.swift; sourceTree = "<group>"; };
 		4EAD73B11EDA490900D5310D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAD73BD1EDA521D00D5310D /* VideoPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4EAD738F1EDA490800D5310D /* AppDelegate.swift */,
 				4EAD73911EDA490800D5310D /* ViewController.swift */,
+				4EAD73BD1EDA521D00D5310D /* VideoPreviewView.swift */,
 				4EAD73931EDA490800D5310D /* Main.storyboard */,
 				4EAD73961EDA490800D5310D /* Assets.xcassets */,
 				4EAD73981EDA490800D5310D /* LaunchScreen.storyboard */,
@@ -193,7 +196,7 @@
 				TargetAttributes = {
 					4EAD738B1EDA490800D5310D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 34MACVPMKE;
+						DevelopmentTeam = 99V67VH5PP;
 						ProvisioningStyle = Automatic;
 					};
 					4EAD739F1EDA490800D5310D = {
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EAD73BE1EDA521D00D5310D /* VideoPreviewView.swift in Sources */,
 				4EAD73921EDA490800D5310D /* ViewController.swift in Sources */,
 				4EAD73901EDA490800D5310D /* AppDelegate.swift in Sources */,
 			);
@@ -413,7 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34MACVPMKE;
+				DEVELOPMENT_TEAM = 99V67VH5PP;
 				INFOPLIST_FILE = PhotoCapture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiawei.chen.PhotoCapture;
@@ -426,7 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34MACVPMKE;
+				DEVELOPMENT_TEAM = 99V67VH5PP;
 				INFOPLIST_FILE = PhotoCapture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiawei.chen.PhotoCapture;
